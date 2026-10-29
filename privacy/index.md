@@ -4,18 +4,14 @@ title: "Privacy Policy – Eisenhower AI"
 lang: en
 ---
 
-[Türkçe](/eisenhower-ai-legal/privacy/tr/)
-
 # Eisenhower AI – Privacy Policy
 
 Effective date: 8 October 2026
+Last updated: 29 October 2026 (what deleting a paid account keeps, section 6)
 
 This policy explains what personal data the Eisenhower AI iPhone and iPad app
 ("the app") and its optional online services handle, why, where it goes, how long
-it is kept, and what rights you have. A Turkish version, which also serves as the
-information notice (*aydınlatma metni*) under Article 10 of the Turkish Personal
-Data Protection Law No. 6698 ("KVKK"), is available at the same address. If you
-use the app in Türkiye, the Turkish version is the one that counts.
+it is kept, and what rights you have.
 
 ## 1. Who is responsible
 
@@ -90,7 +86,7 @@ processed.
 **What is sent.** When you submit an AI Capture, the app sends:
 
 - the text you entered (up to 8,000 characters);
-- your device's language and region setting (for example `tr-TR`) and time
+- your device's language and region setting (for example `en-US`) and time
   zone, so that words like "tomorrow" are understood correctly;
 - a random request number created for that one request;
 - App Attest data that proves the request comes from a genuine copy of the app
@@ -189,6 +185,7 @@ or ends, and we record only the plan and end date listed above.
 | App Attest record on our computer | 12 months after its last use, then deleted automatically. |
 | Account at Supabase: user identifier, Apple identifier, email address, sessions | Until you delete your account. |
 | Plan, subscription end date and usage counter | Until you delete your account. The counter is reset at the start of each 30-day period and at each purchase or renewal. |
+| Usage count of a deleted paid account | Until the 30-day period it belongs to ends (at most 30 days after deletion); a daily job then deletes it. Kept only if the account had a paid plan and had used AI Capture in that period (see below). |
 | Computer keys | Until you delete your account. A signed-out computer's key is kept, marked as signed out, so it can never be used again. |
 | Customer record at RevenueCat | Until you ask us to delete it (see below). |
 | Purchase records at Apple | As set by Apple for its own legal and accounting duties. |
@@ -201,7 +198,15 @@ and Apple asks you to confirm with Sign in with Apple. Deleting then:
 
 1. signs out every computer connected to the account;
 2. deletes your plan, subscription end date and usage counter, and every
-   computer key;
+   computer key. One exception: if your plan is paid and you have used AI
+   Capture in the current 30-day period, we keep your account's random
+   identifier, how many requests you have made in that period and when it
+   started, until the period ends. This record holds no email address or Apple
+   identifier and nobody can sign in with it. It exists so that deleting an
+   account and restoring the subscription on a new one cannot reset the
+   fair-use allowance: if the subscription is restored to another account
+   during that period, the count carries over to it and the record is deleted;
+   otherwise a daily job deletes it once the period has ended;
 3. revokes the app's Sign in with Apple authorisation, so the app no longer
    appears under Sign in with Apple in your Apple Account. If this step cannot be
    completed, the app tells you how to remove it yourself in iOS Settings;
@@ -234,6 +239,7 @@ If you cannot use the app, you can also email us to ask for deletion.
 | Providing AI Capture | Capture text, language/region, time zone, request number | Performing our contract with you (GDPR Art. 6(1)(b); KVKK Art. 5(2)(c)) |
 | Your account and subscription, including the fair-use allowance and linking your iPhone and desktop sign-ins | User identifier, Apple identifier, email address, plan, end date, usage counter, computer keys | Performing our contract with you (GDPR Art. 6(1)(b); KVKK Art. 5(2)(c)) |
 | Protecting the service from abuse: App Attest, rate limits, country restrictions | App Attest record, request timing, country of the request | Our legitimate interest in a secure, fairly shared service (GDPR Art. 6(1)(f); KVKK Art. 5(2)(f)) |
+| Keeping the fair-use allowance from being reset by deleting an account and restoring the subscription on another | A deleted paid account's random identifier, requests used and period start, for at most 30 days | Our legitimate interest in a fairly shared service (GDPR Art. 6(1)(f); KVKK Art. 5(2)(f)) |
 | Answering your requests and meeting legal duties | Your messages and the data needed to act on them | Legal obligation (GDPR Art. 6(1)(c); KVKK Art. 5(2)(ç)) and our contract with you |
 | Establishing or defending legal claims | Only the data relevant to the claim | Legitimate interest (GDPR Art. 6(1)(f)); establishing, exercising or protecting a right (KVKK Art. 5(2)(e)) |
 
@@ -286,8 +292,8 @@ Depending on where you live, you can:
   Protection Authority (KVKK, kvkk.gov.tr); in the EU, the authority in the
   country where you live or work.
 
-To use a right, email goralanil@gmail.com (ask by email for the postal address if you prefer to write). The Turkish
-version of this policy explains the formal application methods under KVKK. We
+To use a right, email goralanil@gmail.com (ask by email for the postal address if you prefer to write). Ask by
+email for the formal application methods under KVKK. We
 answer free of charge within one month (30 days under KVKK). We may ask for
 information to confirm the request is yours, but no more than we need.
 

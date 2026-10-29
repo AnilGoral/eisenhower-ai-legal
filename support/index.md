@@ -4,8 +4,6 @@ title: "Support – Eisenhower AI"
 lang: en
 ---
 
-[Türkçe](/eisenhower-ai-legal/support/tr/)
-
 # Eisenhower AI – Support
 
 ## Contact
@@ -113,7 +111,12 @@ You only have an account if you signed in to use the AI subscription.
 Deleting your account:
 
 - signs out every computer connected to it;
-- deletes your plan, subscription end date, usage counter and computer keys;
+- deletes your plan, subscription end date, usage counter and computer keys.
+  If your plan is paid and you have used AI Capture in the current 30-day
+  period, the number of requests used is kept, under the account's random
+  identifier and without your email address, until that period ends. If you
+  restore the subscription on another account in the meantime, it carries
+  over, so deleting an account does not reset the monthly allowance;
 - removes the app from Sign in with Apple in your Apple Account. If the app says
   this could not be done, remove it yourself: iPhone Settings → your name →
   Sign-In & Security → Sign in with Apple → Eisenhower AI → Stop Using;

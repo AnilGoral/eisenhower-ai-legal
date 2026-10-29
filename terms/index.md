@@ -4,8 +4,6 @@ title: "Terms of Use – Eisenhower AI"
 lang: en
 ---
 
-[Türkçe](/eisenhower-ai-legal/terms/tr/)
-
 # Eisenhower AI – Terms of Use
 
 Effective date: 8 October 2026
@@ -161,8 +159,8 @@ not agree with the new terms, stop using the app and cancel your subscription.
 These terms are governed by the laws of the Republic of Türkiye, and the courts
 and enforcement offices of Istanbul (Çağlayan) have jurisdiction. If you are a consumer, you keep the protection of the mandatory
 laws of the country where you live, and you may bring a claim in its courts. In
-Türkiye, consumers may also apply to Consumer Arbitration Committees (Tüketici
-Hakem Heyetleri) and Consumer Courts.
+Türkiye, consumers may also apply to Consumer Arbitration Committees and
+Consumer Courts.
 
 ## 12. Contact
 
